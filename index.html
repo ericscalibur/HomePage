@@ -322,6 +322,15 @@
                 <div class="container px-5 my-5">
                   <form id="contactForm" data-sb-form-api-token="e215e1a6-a24e-4fba-ab07-d45d104cd951">
                       <div class="form-floating mb-3">
+                          <input class="form-control" id="name" type="text" data-sb-validations="required" />
+                          <label for="name">Your Name</label>
+                          <div class="invalid-feedback" data-sb-feedback="name:required">Your name is required.</div>
+                      </div>
+                      <div class="form-floating mb-3">
+                          <input class="form-control" id="participant" type="text" />
+                          <label for="participant">Participant Name</label>
+                      </div>
+                      <div class="form-floating mb-3">
                           <input class="form-control" id="emailAddress" type="email" data-sb-validations="required,email" />
                           <label for="emailAddress">Email Address</label>
                           <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
@@ -349,6 +358,10 @@
                           <input class="form-control" id="zipCode" type="text" data-sb-validations="required" />
                           <label for="zipCode">Zip Code</label>
                           <div class="invalid-feedback" data-sb-feedback="zipCode:required">Zip Code is required.</div>
+                      </div>
+                      <div class="form-floating mb-3">
+                          <input class="form-control" id="message" type="message" />
+                          <label for="message">Optional Message</label>
                       </div>
                       <div class="d-none" id="submitSuccessMessage">
                           <div class="text-center mb-3">
