@@ -11342,6 +11342,9 @@ p {
   section {
     padding: 9rem 0;
   }
+  #card {
+    margin-left: 2em;
+  }
 }
 .btn-xl {
   padding: 1.25rem 2.5rem;
