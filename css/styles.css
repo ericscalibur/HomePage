@@ -660,10 +660,6 @@ progress {
   margin-left: auto;
 }
 
-blockquote {
-  min-width: 100%;
-}
-
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -11510,6 +11506,9 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
+}
+#portfolio iframe {
+  min-width: 100%;
 }
 #portfolio .portfolio-item {
   max-width: 26rem;
