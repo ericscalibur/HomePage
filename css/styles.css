@@ -660,6 +660,10 @@ progress {
   margin-left: auto;
 }
 
+blockquote {
+  min-width: 100%;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -692,7 +696,7 @@ progress {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  /* margin-right: -4em; /*calc(-0.5 * var(--bs-gutter-x)); */ */
+  /* margin-right: -4em; /*calc(-0.5 * var(--bs-gutter-x));
   /* margin-left: -4em; calc(-0.5 * var(--bs-gutter-x)); */
 }
 .row > * {
@@ -8646,6 +8650,7 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+
   .float-md-start {
     float: left !important;
   }
