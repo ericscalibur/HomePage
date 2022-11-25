@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Eric Summers Parkour</title>
+        <title>Eric Summers - Contact</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Smooch&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -21,21 +22,44 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><h1 id="navlogo">Basics Parkour</h1></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="offerings.html">Offerings</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQ</a></li>
-                    </ul>
+                <a class="navbar-brand" href="index.html"><h1 id="navlogo">Eric Summers</h1></a>
+                <div class="dropdown nav-item">
+                  <button class="dropbtn nav-link navbar-toggler" type="button" data-bs-toggle="collapse">Services
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content" id="myDropdown">
+                    <a style="font-family: 'Montserrat'" href="juggling.html">Juggling</a>
+                    <a style="font-family: 'Montserrat'"href="parkour.html">Parkour</a>
+                    <a style="font-family: 'Montserrat'"href="acroyoga.html">Acroyoga</a>
+                    <a style="font-family: 'Montserrat'"href="coding.html">Coding</a>
+                    <a style="font-family: 'Montserrat'" href="blockchain.html">BlockChain</a>
+                    <a style="font-family: 'Montserrat'" href="permaculture.html">Permaculture</a>
+                    <a style="font-family: 'Montserrat'" href="drone.html">Drone Videography</a>
+                    <a style="font-family: 'Montserrat'" href="silver.html">Colloidal Silver</a>
+                    <a style="font-family: 'Montserrat'" href="index.html">Home</a>
+                  </div>
                 </div>
+
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                      <div class="dropdown nav-item">
+                        <button class="dropbtn nav-link">Services
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content" id="myDropdown">
+                          <a style="font-family: 'Montserrat'" href="juggling.html">Juggling</a>
+                          <a style="font-family: 'Montserrat'"href="parkour.html">Parkour</a>
+                          <a style="font-family: 'Montserrat'"href="acroyoga.html">Acroyoga</a>
+                          <a style="font-family: 'Montserrat'"href="coding.html">Coding</a>
+                          <a style="font-family: 'Montserrat'" href="blockchain.html">BlockChain</a>
+                          <a style="font-family: 'Montserrat'" href="permaculture.html">Permaculture</a>
+                          <a style="font-family: 'Montserrat'" href="drone.html">Drone Videography</a>
+                          <a style="font-family: 'Montserrat'" href="silver.html">Colloidal Silver</a>
+                        </div>
+                      </div>
+                      <li class="nav-item"><a class="nav-link" href="index.html" style="margin-top: .8vh">Home</a></li>
+                  </ul>
+              </div>
             </div>
         </nav>
         <!-- Contact-->
@@ -75,8 +99,20 @@
                           <div class="invalid-feedback" data-sb-feedback="phoneNumber:required">Phone Number is required.</div>
                       </div>
                       <div class="form-floating mb-3">
+                          <select class="form-select" id="service" aria-label="Service">
+                              <option value="Parkour">Parkour</option>
+                              <option value="Juggling">Juggling</option>
+                              <option value="Acroyoga">Acroyoga</option>
+                              <option value="Coding">Coding</option>
+                              <option value="BlockChain">BlockChain</option>
+                              <option value="Permaculture">Permaculture</option>
+                              <option value="ColloidalSilver">ColloidalSilver</option>
+                          </select>
+                          <label for="service">Service</label>
+                      </div>
+                      <div class="form-floating mb-3">
                           <select class="form-select" id="skillLevel" aria-label="Skill Level">
-                              <option value="No experience">None</option>
+                              <option value="None">None</option>
                               <option value="Novice">Novice</option>
                               <option value="Advanced">Advanced</option>
                           </select>
