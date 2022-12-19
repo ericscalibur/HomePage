@@ -11514,7 +11514,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/gap_sky.jpeg");
+  background-image: url("../assets/img/bridge_gap_blue.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
@@ -11538,8 +11538,16 @@ header.jugglingportfoliopic {
   background-image: url("../assets/img/circuspicnic1.jpeg");
 }
 
+header.jugglingaboutpic {
+  background-image: url("../assets/img/a_man_and_his_clubs.jpeg");
+}
+
 header.parkourportfoliopic {
   background-image: url("../assets/img/creek-gap.jpeg");
+}
+
+header.acroyogapic {
+  background-image: url("../assets/img/acro1.jpeg");
 }
 
 /* FOR BIG SCREEN */
@@ -11558,6 +11566,10 @@ header.parkourportfoliopic {
   header.parkourportfoliopic {
     height: 180vh;
   }
+
+  header.jugglingaboutpic {
+    height: 100vh;
+}
 
   header.masthead {
     /* height: 180vh; */
